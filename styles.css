@@ -46,12 +46,14 @@ header {
   margin: 0 auto;
   padding: 0.75rem 1.5rem;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  border-radius: 10px;
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(255, 255, 255, 0.02);
 }
 
 /* 滚动后变色的导航容器 */
 .nav-wrapper.scrolled {
-  background-color: #f5f5f5;
+  background-color: rgba(245, 245, 245, 0.95);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
