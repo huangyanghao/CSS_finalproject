@@ -1,8 +1,8 @@
 window.addEventListener("scroll", () => {
-  const header = document.querySelector("header");
+  const navWrapper = document.querySelector(".nav-wrapper");
   if (window.scrollY > 50) {
-    header.classList.add("scrolled");
+    navWrapper.classList.add("scrolled");
   } else {
-    header.classList.remove("scrolled");
+    navWrapper.classList.remove("scrolled");
   }
 });
