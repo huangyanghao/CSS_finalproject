@@ -61,3 +61,20 @@ section{
   margin-bottom: 1rem;
 }
 
+/* Projects */
+.project {
+  margin: 2rem 0;
+  max-width: 600px;
+  text-align: center;
+}
+.project a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+  font-size: 0.8rem;
+  color: #666;
+}
