@@ -36,6 +36,6 @@ This project showcases my approach to clear structure, subtle motion, and clean 
 To view the site locally:
 
 ```bash
-git clone https://github.com/yourname/your-repo-name.git
+git clone https://github.com/huangyanghao/CSS_finalproject.git
 cd your-repo-name
 open index.html
