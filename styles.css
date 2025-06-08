@@ -35,6 +35,36 @@ nav ul {
   gap: 2rem;
 }
 
+.nav-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  padding: 1rem 2rem;
+  text-align: center;
+  background-color: transparent;
+  transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+  backdrop-filter: none;
+}
+
+header.scrolled {
+  background-color: #f5f5f5;
+  color: #111;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+
 main {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
