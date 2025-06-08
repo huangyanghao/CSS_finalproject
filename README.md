@@ -1,31 +1,41 @@
-# CSS Final Project
+# Personal Portfolio Site
 
-这是我在前端学习阶段的 CSS 最终项目，主要目的是练习 HTML + CSS 页面构建、布局设计与响应式实现。
+A minimal and elegant personal website built with HTML and CSS — inspired by the aesthetic simplicity and smooth transitions of [Lokkee Studios](https://lokkeestudios.com).
 
-## 🖼️ 项目预览
-
-![screenshot](./screenshot.png) <!-- 如果你添加了页面截图，可以展示 -->
-
-> 页面包括导航栏、主内容区、响应式布局和底部栏，注重语义结构与美观设计。
+This project showcases my approach to clear structure, subtle motion, and clean typography.
 
 ---
 
-## 🚀 技术栈
+## ✨ Features
 
-- **HTML5** - 语义化结构
-- **CSS3** - 样式与布局控制
-  - Flexbox 布局
-  - 媒体查询实现响应式
-- 💻 可扩展：后期可以接入 JS 动效、或使用 Tailwind CSS 框架升级
+- **About Section**: A short self-introduction with a profile image.
+- **Work Section**: Selected projects with descriptions and links to source code.
+- **Smooth Scroll**: Seamless page transitions with `scroll-snap` for a full-screen slide-like experience.
+- **Fade-in Animation**: Elegant "slide up & fade" effect for each section using pure CSS keyframes.
+- **Minimalist Style**: Dark-gray backgrounds, soft off-white text, and subtle hover effects for visual clarity.
 
 ---
 
-## 📁 项目结构
+## 📸 Preview
+
+![screenshot](./assets/about.png)
+![screenshot](./assets/project.png)
+
+---
+
+## 🛠 Tech Stack
+
+- **HTML5**: Semantic structure
+- **CSS3**: Layout, animation, scroll snap, and custom scrollbar
+- **No frameworks**, no JavaScript (except optional intersection animation)
+
+---
+
+## 🚀 Getting Started
+
+To view the site locally:
 
 ```bash
-CSS_finalproject/
-├── index.html         # 项目主页面
-├── style.css          # 样式文件
-├── assets/            # 图片/图标等资源
-├── README.md          # 项目说明文档
-└── .gitignore         # 忽略上传内容
+git clone https://github.com/yourname/your-repo-name.git
+cd your-repo-name
+open index.html
